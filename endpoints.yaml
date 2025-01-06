@@ -1,0 +1,22 @@
+- headers:
+    user-agent: <your-user-agent>
+  method: GET
+  name: <endpoint-name-1>
+  url: <endpoint-url-1>
+  
+- headers:
+    user-agent: <your-user-agent>
+  method: GET
+  name: <endpoint-name-2>
+  url: <endpoint-url-2>
+  
+- body: '{"key":"value"}'
+  headers:
+    content-type: application/json
+    user-agent: <your-user-agent>
+  method: POST
+  name: <endpoint-name-3>
+  url: <endpoint-url-3>
+  
+- name: <endpoint-name-4>
+  url: <endpoint-url-4>
